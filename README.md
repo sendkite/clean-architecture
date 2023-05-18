@@ -1,6 +1,8 @@
 ### 핵사고날 연습
 
 - 클린아키텍처 해보기
+  - [우아한테크 아키텍처 영상](https://www.youtube.com/watch?v=saxHxoUeeSw&list=WL&index=1)
+  - [NHN 클린 아키텍처 영상](https://www.youtube.com/watch?v=g6Tg6_qpIVc&t=145s)
 - 간단한 회고 등록하고 조회하는 API를 만들었다.
 
 ```json
