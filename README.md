@@ -1,6 +1,6 @@
 ## Testcontainer + Spring Boot
 
-본 프로젝트는 Josh Long의 세미나에서 소개한 Testcontainer 사용하여 개발 환경 구성을 적용했다.
+본 프로젝트는 Josh Long 님이 [세미나](https://www.youtube.com/watch?v=ykEK2xuJrN8&t=1s)에서 소개한 Testcontainer 사용한 개발 환경 구성을 적용했다. 코드 작성 + 프로젝트 실행 과정이 0.3초로 단축하는 경험을 해볼 수 있다. 
 
 ### How to run
 
@@ -32,7 +32,7 @@ POST localhost:8080/retrospectives
     "wellDone": "코틀린 멀티플렛폼 관련 찾아보기",
     "improvement": "AWS 관련해서 파고들기",
     "actionItem": "질문 3개 이상하기",
-    "comment": "너무 피곤하다."
+    "comment": "가자!"
 }
 // Response
 {
