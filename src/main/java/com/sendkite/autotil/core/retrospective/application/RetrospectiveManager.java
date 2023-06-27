@@ -8,7 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class RetrospectiveManager implements RetrospectiveEditor, RetrospectiveFinder {
@@ -24,7 +23,7 @@ public class RetrospectiveManager implements RetrospectiveEditor, RetrospectiveF
     public List<RetrospectiveDto> findAll() {
         return retrospectiveRepository.findAll().stream()
                 .map(RetrospectiveDto::ofEntity)
-                .collect(Collectors.toUnmodifiableList());
+                .toList();
     }
 
     @Override
